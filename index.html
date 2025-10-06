@@ -296,6 +296,9 @@ document.onkeydown = function(e) {
   // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+S, Ctrl+C, Ctrl+V, Ctrl+X, etc.
   if (
     e.keyCode == 123 || // F12
+    e.keyCode == 116 || // F5
+    e.keyCode == 117 || // F6
+    e.keyCode == 121 || // F10
     (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Ctrl+Shift+I
     (e.ctrlKey && e.shiftKey && e.keyCode == 74) || // Ctrl+Shift+J
     (e.ctrlKey && e.keyCode == 85) || // Ctrl+U
